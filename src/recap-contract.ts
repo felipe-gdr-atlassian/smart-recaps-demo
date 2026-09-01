@@ -1,7 +1,7 @@
-export type RecapAudience = exec | product | design | engineering;
+export type RecapAudience = "exec" | "product" | "design" | "engineering";
 
 export interface RecapCitation {
-  source: meeting | document | linear | github;
+  source: "meeting" | "document" | "linear" | "github";
   title: string;
   url?: string;
   excerpt: string;
